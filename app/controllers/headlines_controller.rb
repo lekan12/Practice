@@ -1,7 +1,14 @@
 class HeadlinesController < ApplicationController
-    def index
-    end    
+    before_action :find_headline, only: [:show, :edit, :update, :destroy]
+
     
+    def index
+		@headlines = Headline.all.order("created_at DESC")
+    end
+    
+    def show
+    end
+ 
     def new
         @headline = Headline.new
     end
@@ -16,9 +23,29 @@ class HeadlinesController < ApplicationController
 	end
     end
     
+    def edit
+    end
+
+	def update
+		if @headline.update(headline_params)
+			redirect_to headline_path(@headline)
+		else
+			render 'edit'
+		end
+	end
+
+	def destroy
+	    @headline.destroy
+		redirect_to root_path
+	end
+	
     private
     
       def headline_params
           params.require(:headline).permit(:title, :description, :author)
       end
+      
+        def find_headline
+			@headline = Headline.find(params[:id])
+        end
 end

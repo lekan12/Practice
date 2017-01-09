@@ -1,0 +1,7 @@
+<h2><%= @headline.title %></h2>
+<h2><%= @headline.author %></h2>
+<h2><%= @headline.description %></h2>
+
+<%= link_to "Back", root_path, class: "btn btn-custom" %>
+<%= link_to "Edit", edit_headline_path(@headline), class: "btn btn-custom" %>
+<%= link_to "Delete", headline_path(@headline), method: :delete, data: { confirm: "Are you sure?" }, class: "btn btn-custom" %>
