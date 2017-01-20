@@ -1652,3 +1652,645 @@ Processing by HeadlinesController#index as HTML
   [1m[36mHeadline Load (0.3ms)[0m  [1mSELECT "headlines".* FROM "headlines"  ORDER BY created_at DESC[0m
   Rendered headlines/index.html.erb within layouts/application (1.4ms)
 Completed 200 OK in 48ms (Views: 47.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 92.237.108.173 at 2017-01-19 22:37:29 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HeadlinesController#index as HTML
+  [1m[35mHeadline Load (0.3ms)[0m  SELECT "headlines".* FROM "headlines"  ORDER BY created_at DESC
+  Rendered headlines/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 620ms (Views: 605.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 92.237.108.173 at 2017-01-19 22:37:30 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/headlines.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 92.237.108.173 at 2017-01-19 22:37:31 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-ee132b6861dab2d8bcfe998d283b7018cbcbf0b6c7d7723120783d630c6ab162.css?body=1" for 92.237.108.173 at 2017-01-19 22:37:31 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-15ce09eba576e56db3edfd87accc0ff48823df915169e350b4fd97290f96aee1.js?body=1" for 92.237.108.173 at 2017-01-19 22:37:31 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-68d1a5161d04ca9fe1b9d9f4114d9426c7798bf90f2703a97aca35c8113469bb.js?body=1" for 92.237.108.173 at 2017-01-19 22:37:31 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-37c62bff1d75f86f3348b8679873d5156d8b9938b62841038dca21690f4740f1.js?body=1" for 92.237.108.173 at 2017-01-19 22:37:31 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-9aaab1a477b9c1156bab751cb8da47f77dace6da88eef8ae830e60f3cff3a8be.js?body=1" for 92.237.108.173 at 2017-01-19 22:37:31 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 92.237.108.173 at 2017-01-19 22:37:31 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-eeece00cd06a3d7cc071ab7845b549d4991edd0f0895e4be70fe40bac2fb5f4b.js?body=1" for 92.237.108.173 at 2017-01-19 22:37:31 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-f2759e138605770e60526c00c6d86cbb3378da203641f9d6b204c9f0192b9267.js?body=1" for 92.237.108.173 at 2017-01-19 22:37:31 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-5ea180afe4404f83fc97d997833f2edefd34475b0b5ddab310e27abc2bbd5f2f.js?body=1" for 92.237.108.173 at 2017-01-19 22:37:31 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-e1bba7115c90301056ee94c4716de2fcbe4498015def2dab9ff9879f339bd245.js?body=1" for 92.237.108.173 at 2017-01-19 22:37:31 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-7742dca5e6acf313fbb217811b48468282cddf1a9baea5c89ec92e367ef242cb.js?body=1" for 92.237.108.173 at 2017-01-19 22:37:31 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-2674d99c3ab0415dba0b958a80b3840f70ff6368b155d890306c0291be49453b.js?body=1" for 92.237.108.173 at 2017-01-19 22:37:31 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 92.237.108.173 at 2017-01-19 22:37:31 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 92.237.108.173 at 2017-01-19 22:37:31 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/headlines.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 92.237.108.173 at 2017-01-19 22:37:31 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 92.237.108.173 at 2017-01-19 22:37:31 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-a3998e7ca949c04cb86b5c635deb0abcc7a24dc02e81be66b8acfef02d811e45.js?body=1" for 92.237.108.173 at 2017-01-19 22:37:31 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-c3b5c16f394ab9c0391db4431aac4f2d2ddf1bba4c5d3228ed343de05ecc8e83.js?body=1" for 92.237.108.173 at 2017-01-19 22:37:31 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/headlines/new" for 92.237.108.173 at 2017-01-19 22:37:52 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#new as HTML
+  Rendered headlines/_form.html.erb (252.1ms)
+  Rendered headlines/new.html.erb within layouts/application (267.5ms)
+Completed 200 OK in 325ms (Views: 323.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/headlines" for 92.237.108.173 at 2017-01-19 22:38:21 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8SiLRk3H5Zdu3NbSuLeKBt9KdGnhEW5ic3n1jiHLJtac/9nZ3z+afqDDtFWsh7fk5J5tXXvsh7h6LwOrXMoSlQ==", "headline"=>{"title"=>"Chelsea could make up to £10m on Patrick Bamford deal and have more than £175m of talent out on loan... here's the lowdown on their 35 loanees  Read more: http://www.dailymail.co.uk/sport/football/article-4135274/Sportsmail-s-estimates-fees-Chelsea-s-35-loanees.html#ixzz4WFYWwE9D  Follow us: @MailOnline on Twitter | DailyMail on Facebook", "description"=>"Chelsea made £6million from the sale of Patrick Bamford and that figure could rise to £10m with performance-related add-ons.\r\n\r\nRead more: http://www.dailymail.co.uk/sport/football/article-4135274/Sportsmail-s-estimates-fees-Chelsea-s-35-loanees.html#ixzz4WFYalnir \r\nFollow us: @MailOnline on Twitter | DailyMail on Facebook", "author"=>"Kieran Gill"}, "commit"=>"Create Headline"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "headlines" ("title", "description", "author", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Chelsea could make up to £10m on Patrick Bamford deal and have more than £175m of talent out on loan... here's the lowdown on their 35 loanees  Read more: http://www.dailymail.co.uk/sport/football/article-4135274/Sportsmail-s-estimates-fees-Chelsea-s-35-loanees.html#ixzz4WFYWwE9D  Follow us: @MailOnline on Twitter | DailyMail on Facebook"], ["description", "Chelsea made £6million from the sale of Patrick Bamford and that figure could rise to £10m with performance-related add-ons.\r\n\r\nRead more: http://www.dailymail.co.uk/sport/football/article-4135274/Sportsmail-s-estimates-fees-Chelsea-s-35-loanees.html#ixzz4WFYalnir \r\nFollow us: @MailOnline on Twitter | DailyMail on Facebook"], ["author", "Kieran Gill"], ["created_at", "2017-01-19 22:38:21.477450"], ["updated_at", "2017-01-19 22:38:21.477450"]]
+  [1m[36m (12.4ms)[0m  [1mcommit transaction[0m
+Redirected to https://gubgook-lekan12.c9users.io/
+Completed 302 Found in 21ms (ActiveRecord: 13.0ms)
+
+
+Started GET "/" for 92.237.108.173 at 2017-01-19 22:38:21 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#index as HTML
+  [1m[35mHeadline Load (0.3ms)[0m  SELECT "headlines".* FROM "headlines"  ORDER BY created_at DESC
+  Rendered headlines/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 55ms (Views: 54.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/headlines/4" for 92.237.108.173 at 2017-01-19 22:38:27 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mHeadline Load (0.4ms)[0m  [1mSELECT  "headlines".* FROM "headlines" WHERE "headlines"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered headlines/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 83ms (Views: 72.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/headlines/4/edit" for 92.237.108.173 at 2017-01-19 22:38:28 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mHeadline Load (0.2ms)[0m  SELECT  "headlines".* FROM "headlines" WHERE "headlines"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered headlines/_form.html.erb (162.6ms)
+  Rendered headlines/edit.html.erb within layouts/application (164.4ms)
+Completed 200 OK in 214ms (Views: 211.9ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/headlines/4" for 92.237.108.173 at 2017-01-19 22:38:35 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FbRi3ryJNuBph6ehWlvai3L2+m1hkoR5JuvxxYZUMMR4YzBBLnFJCaeYxSZOa+dpSSLjWftvbaMvvQfg+1UEhw==", "headline"=>{"title"=>"Chelsea could make up to £10m on Patrick Bamford deal and have more than £175m of talent out on loan... here's the lowdown on their 35 loanees  ", "description"=>"Chelsea made £6million from the sale of Patrick Bamford and that figure could rise to £10m with performance-related add-ons.\r\n\r\nRead more: http://www.dailymail.co.uk/sport/football/article-4135274/Sportsmail-s-estimates-fees-Chelsea-s-35-loanees.html#ixzz4WFYalnir \r\nFollow us: @MailOnline on Twitter | DailyMail on Facebook", "author"=>"Kieran Gill"}, "commit"=>"Update Headline", "id"=>"4"}
+  [1m[36mHeadline Load (0.3ms)[0m  [1mSELECT  "headlines".* FROM "headlines" WHERE "headlines"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "headlines" SET "title" = ?, "updated_at" = ? WHERE "headlines"."id" = ?[0m  [["title", "Chelsea could make up to £10m on Patrick Bamford deal and have more than £175m of talent out on loan... here's the lowdown on their 35 loanees  "], ["updated_at", "2017-01-19 22:38:35.408045"], ["id", 4]]
+  [1m[35m (15.6ms)[0m  commit transaction
+Redirected to https://gubgook-lekan12.c9users.io/headlines/4
+Completed 302 Found in 29ms (ActiveRecord: 16.5ms)
+
+
+Started GET "/headlines/4" for 92.237.108.173 at 2017-01-19 22:38:35 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mHeadline Load (0.2ms)[0m  [1mSELECT  "headlines".* FROM "headlines" WHERE "headlines"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered headlines/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 40ms (Views: 39.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/headlines/4/edit" for 92.237.108.173 at 2017-01-19 22:38:38 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mHeadline Load (0.2ms)[0m  SELECT  "headlines".* FROM "headlines" WHERE "headlines"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered headlines/_form.html.erb (148.4ms)
+  Rendered headlines/edit.html.erb within layouts/application (149.8ms)
+Completed 200 OK in 235ms (Views: 233.2ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/headlines/4" for 92.237.108.173 at 2017-01-19 22:38:45 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5vt5dYXE0w/bbNhDpgZlfrbxCg/Rz4AwUSKv+7iVF2uLLCvqFzys5hVzusSyNlicjSUTO0syaepYdFnexZQjKA==", "headline"=>{"title"=>"Chelsea could make up to £10m on Patrick Bamford deal and have more than £175m of talent out on loan... here's the lowdown on their 35 loanees  ", "description"=>"Chelsea made £6million from the sale of Patrick Bamford and that figure could rise to £10m with performance-related add-ons.\r\n\r\n", "author"=>"Kieran Gill"}, "commit"=>"Update Headline", "id"=>"4"}
+  [1m[36mHeadline Load (0.1ms)[0m  [1mSELECT  "headlines".* FROM "headlines" WHERE "headlines"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "headlines" SET "description" = ?, "updated_at" = ? WHERE "headlines"."id" = ?[0m  [["description", "Chelsea made £6million from the sale of Patrick Bamford and that figure could rise to £10m with performance-related add-ons.\r\n\r\n"], ["updated_at", "2017-01-19 22:38:45.731437"], ["id", 4]]
+  [1m[35m (13.7ms)[0m  commit transaction
+Redirected to https://gubgook-lekan12.c9users.io/headlines/4
+Completed 302 Found in 121ms (ActiveRecord: 14.1ms)
+
+
+Started GET "/headlines/4" for 92.237.108.173 at 2017-01-19 22:38:45 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mHeadline Load (0.2ms)[0m  [1mSELECT  "headlines".* FROM "headlines" WHERE "headlines"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered headlines/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 61ms (Views: 60.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 92.237.108.173 at 2017-01-19 22:38:53 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#index as HTML
+  [1m[35mHeadline Load (0.4ms)[0m  SELECT "headlines".* FROM "headlines"  ORDER BY created_at DESC
+  Rendered headlines/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 66ms (Views: 65.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/headlines/new" for 92.237.108.173 at 2017-01-19 22:38:55 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#new as HTML
+  Rendered headlines/_form.html.erb (87.4ms)
+  Rendered headlines/new.html.erb within layouts/application (88.8ms)
+Completed 200 OK in 216ms (Views: 214.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/headlines" for 92.237.108.173 at 2017-01-19 22:42:37 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JOAMcBWAbe7FM3YmavOwfK42a91WnANM0EK6JfyxCwlJN17vh3gSBwssFKF+w42eleJy6cxh6pbZFEwAgbA/Sg==", "headline"=>{"title"=>"Is Maria Balshaw such a good choice for Tate? I tremble for the art I love", "description"=>"The last couple of years have seen changes at the top of all of London’s major art musuems. In 2015 we saw new leadership at the British Museum and the National Gallery.", "author"=>"Jack Wakefield"}, "commit"=>"Create Headline"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "headlines" ("title", "description", "author", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "Is Maria Balshaw such a good choice for Tate? I tremble for the art I love"], ["description", "The last couple of years have seen changes at the top of all of London’s major art musuems. In 2015 we saw new leadership at the British Museum and the National Gallery."], ["author", "Jack Wakefield"], ["created_at", "2017-01-19 22:42:37.124225"], ["updated_at", "2017-01-19 22:42:37.124225"]]
+  [1m[36m (11.1ms)[0m  [1mcommit transaction[0m
+Redirected to https://gubgook-lekan12.c9users.io/
+Completed 302 Found in 15ms (ActiveRecord: 11.5ms)
+
+
+Started GET "/" for 92.237.108.173 at 2017-01-19 22:42:37 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#index as HTML
+  [1m[35mHeadline Load (0.4ms)[0m  SELECT "headlines".* FROM "headlines"  ORDER BY created_at DESC
+  Rendered headlines/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 48ms (Views: 46.2ms | ActiveRecord: 0.4ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to DeviseCreateUsers (20170119230353)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.6ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170119230353"]]
+  [1m[36m (16.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/" for 92.237.108.173 at 2017-01-19 23:12:30 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HeadlinesController#index as HTML
+  [1m[35mHeadline Load (0.3ms)[0m  SELECT "headlines".* FROM "headlines"  ORDER BY created_at DESC
+  Rendered headlines/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 448ms (Views: 433.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 92.237.108.173 at 2017-01-19 23:12:44 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#index as HTML
+  [1m[36mHeadline Load (0.3ms)[0m  [1mSELECT "headlines".* FROM "headlines"  ORDER BY created_at DESC[0m
+  Rendered headlines/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 60ms (Views: 58.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/headlines/new" for 92.237.108.173 at 2017-01-19 23:12:51 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#new as HTML
+  Rendered headlines/_form.html.erb (124.1ms)
+  Rendered headlines/new.html.erb within layouts/application (127.7ms)
+Completed 200 OK in 168ms (Views: 167.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/headlines" for 92.237.108.173 at 2017-01-19 23:13:31 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XBBylDOSr3xjXKVurOW/QA3EeZZ912HrJRL5D3QueZ8xxyALoWrQla1Dx+m41YKiNhBgoucqiDEsRA8qCS9N3A==", "headline"=>{"title"=>"Ghost Recon: Wildlands Preview - Painting a Picture", "description"=>"Ghost Recon: Wildlands strikes me as a game desperate to tell a story; it just doesn't know what story to tell. It's not that it doesn't have one: the latest in the Tom Clancy sub-brand has cutscenes, scripted characters, and a selection of story missions within its huge open world.", "author"=>"Oscar Dayus "}, "commit"=>"Create Headline"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "headlines" ("title", "description", "author", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Ghost Recon: Wildlands Preview - Painting a Picture"], ["description", "Ghost Recon: Wildlands strikes me as a game desperate to tell a story; it just doesn't know what story to tell. It's not that it doesn't have one: the latest in the Tom Clancy sub-brand has cutscenes, scripted characters, and a selection of story missions within its huge open world."], ["author", "Oscar Dayus "], ["created_at", "2017-01-19 23:13:31.727592"], ["updated_at", "2017-01-19 23:13:31.727592"]]
+  [1m[35m (11.5ms)[0m  commit transaction
+Redirected to https://gubgook-lekan12.c9users.io/
+Completed 302 Found in 21ms (ActiveRecord: 12.3ms)
+
+
+Started GET "/" for 92.237.108.173 at 2017-01-19 23:13:32 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#index as HTML
+  [1m[36mHeadline Load (0.3ms)[0m  [1mSELECT "headlines".* FROM "headlines"  ORDER BY created_at DESC[0m
+  Rendered headlines/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 49ms (Views: 47.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 92.237.108.173 at 2017-01-19 23:33:37 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HeadlinesController#index as HTML
+  [1m[35mHeadline Load (0.3ms)[0m  SELECT "headlines".* FROM "headlines"  ORDER BY created_at DESC
+  Rendered headlines/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 354ms (Views: 342.1ms | ActiveRecord: 0.6ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/" for 92.237.108.173 at 2017-01-19 23:42:11 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HeadlinesController#index as HTML
+  [1m[35mHeadline Load (0.3ms)[0m  SELECT "headlines".* FROM "headlines"  ORDER BY created_at DESC
+  Rendered headlines/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 341ms (Views: 329.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 92.237.108.173 at 2017-01-19 23:43:14 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#index as HTML
+  [1m[36mHeadline Load (0.3ms)[0m  [1mSELECT "headlines".* FROM "headlines"  ORDER BY created_at DESC[0m
+  Rendered headlines/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 48ms (Views: 46.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 92.237.108.173 at 2017-01-19 23:43:33 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#index as HTML
+  [1m[35mHeadline Load (0.3ms)[0m  SELECT "headlines".* FROM "headlines"  ORDER BY created_at DESC
+  Rendered headlines/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 46ms (Views: 44.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 92.237.108.173 at 2017-01-19 23:44:01 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#index as HTML
+  [1m[36mHeadline Load (0.3ms)[0m  [1mSELECT "headlines".* FROM "headlines"  ORDER BY created_at DESC[0m
+  Rendered headlines/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 59ms (Views: 58.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 92.237.108.173 at 2017-01-19 23:48:54 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#index as HTML
+  [1m[35mHeadline Load (0.4ms)[0m  SELECT "headlines".* FROM "headlines"  ORDER BY created_at DESC
+  Rendered headlines/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 77ms (Views: 75.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/headlines/new" for 92.237.108.173 at 2017-01-19 23:48:57 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#new as HTML
+  Rendered headlines/_form.html.erb (148.2ms)
+  Rendered headlines/new.html.erb within layouts/application (153.3ms)
+Completed 200 OK in 206ms (Views: 204.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/headlines/new" for 92.237.108.173 at 2017-01-19 23:50:18 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#new as HTML
+  Rendered headlines/_form.html.erb (76.7ms)
+  Rendered headlines/new.html.erb within layouts/application (77.5ms)
+Completed 200 OK in 146ms (Views: 145.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/headlines/new" for 92.237.108.173 at 2017-01-19 23:50:53 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#new as HTML
+  Rendered headlines/_form.html.erb (7.5ms)
+  Rendered headlines/new.html.erb within layouts/application (8.3ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `model_name' for nil:NilClass):
+    1: <%= simple_form_for @News do |f| %>
+    2: 	<%= f.input :title, label: "Headline Title" %>
+    3: 	<%= f.input :description %>
+    4: 	<%= f.input :author %>
+  app/views/headlines/_form.html.erb:1:in `_app_views_headlines__form_html_erb___2104787417359232425_70242654596480'
+  app/views/headlines/new.html.erb:5:in `_app_views_headlines_new_html_erb___4073425796238979338_70242664802600'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (45.3ms)
+
+
+Started GET "/headlines/new" for 92.237.108.173 at 2017-01-19 23:52:06 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#new as HTML
+  Rendered headlines/_form.html.erb (66.4ms)
+  Rendered headlines/new.html.erb within layouts/application (67.1ms)
+Completed 200 OK in 183ms (Views: 182.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/headlines/new" for 92.237.108.173 at 2017-01-19 23:52:36 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#new as HTML
+  Rendered headlines/_form.html.erb (72.9ms)
+  Rendered headlines/new.html.erb within layouts/application (74.3ms)
+Completed 200 OK in 213ms (Views: 212.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/headlines/new" for 92.237.108.173 at 2017-01-19 23:58:04 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#new as HTML
+  Rendered headlines/_form.html.erb (70.2ms)
+  Rendered headlines/new.html.erb within layouts/application (70.9ms)
+Completed 200 OK in 116ms (Views: 114.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/headlines/" for 92.237.108.173 at 2017-01-19 23:58:14 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#index as HTML
+  [1m[36mHeadline Load (0.4ms)[0m  [1mSELECT "headlines".* FROM "headlines"  ORDER BY created_at DESC[0m
+  Rendered headlines/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 49ms (Views: 47.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/headlines/5" for 92.237.108.173 at 2017-01-19 23:58:17 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mHeadline Load (0.3ms)[0m  SELECT  "headlines".* FROM "headlines" WHERE "headlines"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered headlines/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 67ms (Views: 53.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/headlines/5/edit" for 92.237.108.173 at 2017-01-19 23:58:24 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mHeadline Load (0.1ms)[0m  [1mSELECT  "headlines".* FROM "headlines" WHERE "headlines"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered headlines/_form.html.erb (86.0ms)
+  Rendered headlines/edit.html.erb within layouts/application (87.6ms)
+Completed 200 OK in 152ms (Views: 150.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/headlines/5" for 92.237.108.173 at 2017-01-20 00:00:33 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mHeadline Load (0.2ms)[0m  SELECT  "headlines".* FROM "headlines" WHERE "headlines"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered headlines/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 49ms (Views: 47.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 92.237.108.173 at 2017-01-20 00:00:36 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#index as HTML
+  [1m[36mHeadline Load (0.3ms)[0m  [1mSELECT "headlines".* FROM "headlines"  ORDER BY created_at DESC[0m
+  Rendered headlines/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 55ms (Views: 53.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 92.237.108.173 at 2017-01-20 00:05:46 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#index as HTML
+  [1m[35mHeadline Load (0.4ms)[0m  SELECT "headlines".* FROM "headlines"  ORDER BY created_at DESC
+  Rendered headlines/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 57ms (Views: 55.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/headlines/6" for 92.237.108.173 at 2017-01-20 00:05:51 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mHeadline Load (0.1ms)[0m  [1mSELECT  "headlines".* FROM "headlines" WHERE "headlines"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered headlines/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 52ms (Views: 50.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 92.237.108.173 at 2017-01-20 00:11:14 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#index as HTML
+  [1m[35mHeadline Load (0.4ms)[0m  SELECT "headlines".* FROM "headlines"  ORDER BY created_at DESC
+  Rendered headlines/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 69ms (Views: 67.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/headlines/6" for 92.237.108.173 at 2017-01-20 00:11:23 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mHeadline Load (0.1ms)[0m  [1mSELECT  "headlines".* FROM "headlines" WHERE "headlines"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered headlines/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 54ms (Views: 52.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 92.237.108.173 at 2017-01-20 00:11:27 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#index as HTML
+  [1m[35mHeadline Load (0.3ms)[0m  SELECT "headlines".* FROM "headlines"  ORDER BY created_at DESC
+  Rendered headlines/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 58ms (Views: 56.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/headlines/new" for 92.237.108.173 at 2017-01-20 00:11:28 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#new as HTML
+  Rendered headlines/_form.html.erb (86.7ms)
+  Rendered headlines/new.html.erb within layouts/application (87.7ms)
+Completed 200 OK in 163ms (Views: 161.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 92.237.108.173 at 2017-01-20 00:13:48 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#index as HTML
+  [1m[36mHeadline Load (0.7ms)[0m  [1mSELECT "headlines".* FROM "headlines"  ORDER BY created_at DESC[0m
+  Rendered headlines/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 231ms (Views: 229.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/headlines/new" for 92.237.108.173 at 2017-01-20 00:13:53 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#new as HTML
+  Rendered headlines/_form.html.erb (92.2ms)
+  Rendered headlines/new.html.erb within layouts/application (93.3ms)
+Completed 200 OK in 168ms (Views: 167.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/headlines/new" for 92.237.108.173 at 2017-01-20 00:14:34 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#new as HTML
+  Rendered headlines/_form.html.erb (1.4ms)
+  Rendered headlines/new.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/headlines/_form.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting ')'
+... f.button :submit, :class label => 'btn-custom2' );@output_b...
+...                               ^):
+  app/views/headlines/_form.html.erb:5: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/headlines/new.html.erb:5:in `_app_views_headlines_new_html_erb___4073425796238979338_70242666053100'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (41.8ms)
+
+
+Started GET "/headlines/new" for 92.237.108.173 at 2017-01-20 00:14:45 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#new as HTML
+  Rendered headlines/_form.html.erb (85.2ms)
+  Rendered headlines/new.html.erb within layouts/application (86.1ms)
+Completed 200 OK in 147ms (Views: 145.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/headlines/new" for 92.237.108.173 at 2017-01-20 00:15:08 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#new as HTML
+  Rendered headlines/_form.html.erb (139.4ms)
+  Rendered headlines/new.html.erb within layouts/application (140.8ms)
+Completed 500 Internal Server Error in 146ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error ({:label=>"btn-custom2", :class=>["btn btn-default"]} is not a symbol nor a string):
+    2: 	<%= f.input :title, label: "Headline Title" %>
+    3: 	<%= f.input :description %>
+    4: 	<%= f.input :author %>
+    5: 	<%= f.button :label, :label => 'btn-custom2' %>
+    6: <% end %>
+  app/views/headlines/_form.html.erb:5:in `block in _app_views_headlines__form_html_erb___2104787417359232425_70242658367180'
+  app/views/headlines/_form.html.erb:1:in `_app_views_headlines__form_html_erb___2104787417359232425_70242658367180'
+  app/views/headlines/new.html.erb:5:in `_app_views_headlines_new_html_erb___4073425796238979338_70242666053100'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (38.0ms)
+
+
+Started GET "/headlines/new" for 92.237.108.173 at 2017-01-20 00:15:27 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#new as HTML
+  Rendered headlines/_form.html.erb (78.0ms)
+  Rendered headlines/new.html.erb within layouts/application (79.0ms)
+Completed 200 OK in 145ms (Views: 144.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/headlines/new" for 92.237.108.173 at 2017-01-20 00:16:00 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#new as HTML
+  Rendered headlines/_form.html.erb (122.2ms)
+  Rendered headlines/new.html.erb within layouts/application (123.0ms)
+Completed 200 OK in 191ms (Views: 190.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/headlines/new" for 92.237.108.173 at 2017-01-20 00:16:02 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#new as HTML
+  Rendered headlines/_form.html.erb (140.8ms)
+  Rendered headlines/new.html.erb within layouts/application (141.7ms)
+Completed 200 OK in 199ms (Views: 198.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 92.237.108.173 at 2017-01-20 00:16:20 +0000
+Cannot render console from 92.237.108.173! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HeadlinesController#index as HTML
+  [1m[35mHeadline Load (0.4ms)[0m  SELECT "headlines".* FROM "headlines"  ORDER BY created_at DESC
+  Rendered headlines/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 56ms (Views: 55.0ms | ActiveRecord: 0.4ms)
