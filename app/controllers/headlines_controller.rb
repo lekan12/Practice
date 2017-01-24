@@ -10,11 +10,13 @@ class HeadlinesController < ApplicationController
     end
  
     def new
-        @headline = Headline.new
+        @headline = current_user.headlines.build
+        @categories = Category.all.map{ |c| [c.name, c.id] }
     end
     
     def create
-        @headline = Headline.new(headline_params)
+        @headline = current_user.headlines.build(headline_params)
+        @headline.category_id = params[:category_id]
         
         if @headline.save
 			redirect_to root_path
