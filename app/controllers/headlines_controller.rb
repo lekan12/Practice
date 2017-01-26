@@ -44,7 +44,7 @@ class HeadlinesController < ApplicationController
     private
     
       def headline_params
-          params.require(:headline).permit(:title, :description, :author)
+          params.require(:headline).permit(:title, :description, :author, :category_id)
       end
       
         def find_headline
